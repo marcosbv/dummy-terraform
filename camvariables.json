@@ -1,0 +1,36 @@
+{
+    "input_group_parameters": [],
+    "template_input_params": [
+      {
+        "name": "number_of_instances",
+        "description": "Nome do Projeto do Open Stack onde a máquina deverá ser criada.",
+        "type": "string",
+        "required": true,
+        "secured": false,
+        "label": "number_of_instances",
+        "hidden": false,
+        "immutable": false
+      },
+      {
+        "name": "min_of_instances",
+        "description": "UUID da rede publica padrao criada para o projeto para criação do router padrão.",
+        "type": "string",
+        "required": true,
+        "secured": false,
+        "label": "min_of_instances",
+        "hidden": false,
+        "immutable": false
+      },
+      {
+        "name": "max_of_instances",
+        "description": "Range de IPs para a rede padrao a ser criada.",
+        "type": "string",
+        "required": true,
+        "secured": false,
+        "label": "max_of_instances",
+        "hidden": false,
+        "immutable": false
+      }
+    ],
+    "template_output_params": []
+  }
