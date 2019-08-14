@@ -21,3 +21,7 @@ resource "null_resource" "dummy" {
     command = "echo Instances=${var.number_of_instances}"
   }
 }
+
+output "ip_address" {
+  value = "${var.max_of_instances}"
+}
